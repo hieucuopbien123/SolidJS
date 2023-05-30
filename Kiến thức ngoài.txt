@@ -1,0 +1,14 @@
+-> SOLID + JS
+Là 1 thư viện JS cho frontend. SolidJS được tài trợ bởi nhiều hãng lớn: Vercel, CloudFlare, JetBrains, Netlify
+
+Khá giống React: Giống syntax, cùng dùng JSX (Javascript XML). Có cơ chế Reactive tự cập nhập theo dõi thay đổi UI khi state props đổi. Mô hình component based tái sử dụng linh hoạt. Cung các lifecycle methods giúp xử lý logic. Có custom hook. Hỗ trợ typescript. Có đầy đủ thư viện routing, store management, UI lib. Doc đầy đủ.
+
+Điểm mạnh: Nó cập nhật thay đổi UI trực tiếp trên native DOM (k dùng virtual dom như nhiều js lib/framework khác như React chẳng hạn) nên nhanh hơn. Hỗ trợ SSR. Kích thước cực kỳ nhẹ.
+
+=> SolidJS mặc dù là 1 lib giống React dễ học. Nhưng performance của nó lại nhanh hơn cả Svelte, Vue, Preact, React, Angular(chậm hơn React), Inferno(1 framework khác nhanh hơn cả Svelte). Bundle size của nó trong nhiều TH giảm tới hơn 10 so với React cùng 1 ứng dụng.
+
+So với NextJS => chưa biết thế nào
+
+-> Reactivity Primitives gồm 3 thành phần lõi: signal memo effect
+
+
